@@ -16,7 +16,7 @@ CHANNELS_TO_SCAN = [1187566701290729626]
 TARGET_EMOJI = "joie"
 
 # Nombre minimum de cet emoji pour archiver le message
-MIN_REACTIONS = 1
+MIN_REACTIONS = 3
 
 # Pour éviter les doublons : le bot garde en mémoire les messages déjà archivés
 ARCHIVE_LOG_FILE = "archived_messages.txt"
