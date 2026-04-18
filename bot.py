@@ -2,9 +2,10 @@ import discord
 import asyncio
 import os
 from config import (
-    BOT_TOKEN, ARCHIVE_CHANNEL_ID, CHANNELS_TO_SCAN,
+    ARCHIVE_CHANNEL_ID, CHANNELS_TO_SCAN,
     TARGET_EMOJI, MIN_REACTIONS, ARCHIVE_LOG_FILE
 )
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # ============================================================
 #  Chargement des messages déjà archivés (anti-doublons)
